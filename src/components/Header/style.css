@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+body {
+    font-family: 'Roboto';
+}
+
+.toolbar {
+    display: block;
+    height: 10%;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #0d1c35;
+    padding: 5px 25px 0 25px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+    color: #fff
+}
+
+.lane_name {
+    display: inline-block;
+}
+
+.header_txt {
+    float: left;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.float_right {
+    float: right;
+}
+
+
+.txt_newlane {
+    font-size: 15px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff
+}
+
+.txt_newlane:focus {
+    outline: none;
+    border-bottom: 2px solid #fff;
+}
+
+.txt_newlane::placeholder {
+    color: #90CAF9;
+    opacity: 1; /* Firefox */
+}
+
+.txt_newlane:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #90CAF9;
+}
+
+.txt_newlane::-ms-input-placeholder { /* Microsoft Edge */
+    color: #90CAF9;
+}

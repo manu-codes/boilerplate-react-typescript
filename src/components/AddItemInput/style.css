@@ -1,0 +1,29 @@
+.txt {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #757575;
+    background-color: transparent;
+    width: 250px;
+}
+
+.txt:focus {
+    outline: none;
+    border-bottom: 2px solid #2196F3;
+}
+
+
+
+.txt::placeholder {
+    color: #edf1f2;
+    opacity: 1; /* Firefox */
+}
+
+.txt:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #edf1f2;
+}
+
+.txt::-ms-input-placeholder { /* Microsoft Edge */
+    color: #edf1f2;
+}
