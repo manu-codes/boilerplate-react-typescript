@@ -1,8 +1,8 @@
 
 
 
-## Demo
-[Deployed through now](https://dist-rqonnzsatm.now.sh/)
+### Dev Inprogress
+
 
 
 ## Setup
